@@ -1,0 +1,35 @@
+{
+  "input_folder": "Data/satellite_tiles",
+  "output_folder": "Data/output_opencv",
+  "total_images": 1,
+  "total_detections": 68,
+  "parameters_used": {
+    "canny_T1": 91,
+    "canny_T2": 31,
+    "dp": 1.2,
+    "min_dist": 50,
+    "param1": 50,
+    "param2": 15,
+    "min_radius": 5,
+    "max_radius": 50,
+    "bilateral_d": 9,
+    "bilateral_sigma_color": 75,
+    "bilateral_sigma_space": 75,
+    "dilate_iterations": 3
+  },
+  "images_metadata": {
+    "tile_084_50.64742864587237_30.21110599326391": {
+      "coordinates": [
+        0.0,
+        0.0
+      ],
+      "resolution": 1.0,
+      "zoom_level": 15,
+      "image_size": [
+        640,
+        640
+      ],
+      "detections_count": 68
+    }
+  }
+}
