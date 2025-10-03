@@ -1,2 +1,4 @@
 # Ігнорувати системні файли macOS
 .DS_Store
+
+echo ".gitignore" >> .gitignore.gitignore
